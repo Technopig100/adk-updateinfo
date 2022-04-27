@@ -1,5 +1,9 @@
+
 ################################################################
 #########               ADK-Linux News!!              ##########
 ################################################################
 
 This is a test of the adk-linux news and info delivery system! 
+
+
+Press Ctrl+x to exit.
