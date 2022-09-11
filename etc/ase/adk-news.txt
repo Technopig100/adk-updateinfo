@@ -3,7 +3,8 @@
 #########               ADK-Linux News!!              ##########
 ################################################################
 
-This is a test of the adk-linux news and info delivery system! 
+There have been some changes after the grub incodent with the lay-out of 
+latte-dock and addition of pacseek!
 
 
 Press Ctrl+x to exit.
