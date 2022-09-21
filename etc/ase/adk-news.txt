@@ -3,8 +3,9 @@
 #########               ADK-Linux News!!              ##########
 ################################################################
 
-There have been some changes after the grub incodent with the lay-out of 
-latte-dock and addition of pacseek!
-
+Grub bootloader upgrade and configuration incompatibilities!!
+ Recent changes in grub added a new command option to fwsetup and changed the way the command is invoked in the generated boot configuration. Depending on your system hardware and setup this could cause an unbootable system due to incompatibilities between the installed bootloader and configuration. After a grub package update it is advised to run both, installation and regeneration of configuration
+   # grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+   # grub-mkconfig -o /boot/grub/grub.cfg
 
 Press Ctrl+x to exit.
